@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 
 import { Link, useNavigate } from "react-router-dom";
-import { ToastContainer } from "react-toastify";
 import { handleSuccess } from "./Pages/utils";
 
 const Menu = () => {
@@ -12,7 +11,7 @@ const Menu = () => {
 
     useEffect(() => {
         setLoggedInUser(localStorage.getItem("loggedInUser"));
-    });
+    }, [loggedInUser]);
 
     const handleMenuClick = (index) => {
         setSelectedMenu(index);

@@ -5,7 +5,7 @@ const Summary = () => {
 
     useEffect(() => {
         setLoggedInUser(localStorage.getItem("loggedInUser"));
-    });
+    }, [setLoggedInUser]);
 
     return (
         <>
