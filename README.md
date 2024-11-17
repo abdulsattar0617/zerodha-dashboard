@@ -125,9 +125,9 @@ The Zerodha Dashboard is a React-based web application that mimics core stock tr
 - The frontend communicates with the backend API for real-time data retrieval.
 
 
-## Live Demo (change_me)
+## Live Demo
 
-You can access the live version of the application here: [Zerodha-Dashboard Live Demo](https://wanderlust-zr73.onrender.com/)
+You can access the live version of the application here: [Zerodha-Dashboard Live Demo](https://zerodha-dashboard-p.onrender.com)
 
 ## Project Structure
 
