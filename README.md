@@ -40,7 +40,8 @@ The Zerodha Dashboard is a React-based web application that mimics core stock tr
 
 - **Backend**:
 
-  - Express.js (Node.js)
+  - Express.js 
+  - Node.js
 
 - **Authentication**:
 
